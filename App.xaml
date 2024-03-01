@@ -1,0 +1,25 @@
+﻿<Application x:Class="pr12.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:pr12"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#5EBEC4"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+            <Setter Property="FontFamily" Value="Cascadia Mono"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="BorderThickness" Value="1.5"></Setter>
+            <Setter Property="Background" Value="#5EBEC4"></Setter>
+        </Style>
+        <Style x:Key="HeaderStyle">
+            <Setter Property="Control.FontSize" Value="26"></Setter>
+            <Setter Property="Control.Margin" Value="5"></Setter>
+            <Setter Property="Control.Foreground" Value="#5EBEC4"></Setter>
+            <Setter Property="Control.FontWeight" Value="Bold"></Setter>
+            <Setter Property="Control.FontFamily" Value="Cascadia Mono"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>
